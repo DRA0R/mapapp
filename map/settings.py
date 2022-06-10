@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mapapp.apps.MapappConfig',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -99,6 +100,9 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+#para qu efuncione Crispy
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
 # Internationalization
